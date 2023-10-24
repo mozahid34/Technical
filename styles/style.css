@@ -406,6 +406,80 @@
     display: flex;
 }
 
+/* Jornal Contents */
+.jornal {
+    margin:50px 0;
+}
+.parts {
+    display: flex;
+    gap: 20px;
+}
+.left-con {
+    margin-top: 30px;
+    width: 80dvw;
+
+}
+.right-con {
+    padding: 10px;
+    background: #F4F4F4;
+    min-width: 20dvw;
+    
+
+
+
+}
+
+.c {
+    margin: 10px 10px 15px 0px;
+}
+.p-blocks {
+    background: linear-gradient( #047FFA, #CE0CFF);
+    min-height: 40vh;
+    position: relative;
+}
+.post {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+.post-h {
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+.p-text {
+    color: #FFFFFF;
+}
+.dwn {
+    position: absolute;
+    left: 5px;
+    top:80px;
+    padding: 10px 20px;
+    border: 2px solid #047FFA;
+    
+    
+}
+.dwn a {
+    color: white;
+    font-weight: bold;
+}
+.block-sm {
+    position: absolute;
+    bottom: 0;
+}
+
+.gallary img:hover {
+    cursor: pointer;
+    border: 2px solid #047FFA;
+    /* transform: scale(200%); */
+
+
+}
+
+
+
 /* Pagination */
 .page {
     display: flex;
